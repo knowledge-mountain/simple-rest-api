@@ -17,4 +17,9 @@ public class ExampleController {
     public ResponseEntity<String> getSecondSimpleExample() {
         return ResponseEntity.ok("Second simple example");
     }
+
+    @GetMapping("simple/third")
+    public ResponseEntity<String> getThirdSimpleExample() {
+        return ResponseEntity.ok("Third simple example");
+    }
 }
