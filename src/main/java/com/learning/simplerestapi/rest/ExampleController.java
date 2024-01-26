@@ -22,4 +22,9 @@ public class ExampleController {
     public ResponseEntity<String> getThirdSimpleExample() {
         return ResponseEntity.ok("Third simple example");
     }
+
+    @GetMapping("simple/fourth")
+    public ResponseEntity<String> getfourthSimpleExample() {
+        return ResponseEntity.ok("Third simple example");
+    }
 }
