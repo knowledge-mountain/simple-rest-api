@@ -12,4 +12,9 @@ public class ExampleController {
     public ResponseEntity<String> getSimpleExample() {
         return ResponseEntity.ok("Simple Example");
     }
+
+    @GetMapping("simple/second")
+    public ResponseEntity<String> getSecondSimpleExample() {
+        return ResponseEntity.ok("Second simple example");
+    }
 }
